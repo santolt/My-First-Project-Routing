@@ -1,0 +1,32 @@
+.container {
+  background-color: rgb(12, 96, 165);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .site-identity {
+    h1 {
+      a {
+        color: #fff;
+      }
+    }
+  }
+
+  .site-navigation {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        padding: 1rem;
+        color: white;
+
+        &:hover {
+          background-color: rgb(6, 69, 121);
+          transition: 0.6s ease-out;
+        }
+      }
+    }
+  }
+}
